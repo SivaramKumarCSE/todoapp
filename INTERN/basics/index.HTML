@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.CSS"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col gap-3 ">
+        <h1 id="heading" class="text-3xl font-bold tracking-tight ml-80 mt-2">TODO APP</h1>
+        <div class="flex flex-row gap-3 ml-72 mt-3">
+           <input id="task-input" type="text" placeholder="Enter the Todo list" class="border border-gray-700 bg-gray-300 rounded-lg px-5 " >
+           <button id="add-task-input" onclick="addTask()" class="rounded-full bg-black text-white py-2 px-2" >Add task</button>
+           </div>
+           <div class ="flex flex-col gap-3 px-72 mt-4">
+             <div class="bg-whitw shadow-2xl p-2 border border-gray-500 rounded-xl">task1</div>
+           </div>
+        </div>
+</body>
+</html>
